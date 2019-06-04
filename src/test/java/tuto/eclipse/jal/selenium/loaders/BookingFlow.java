@@ -1,6 +1,7 @@
 package tuto.eclipse.jal.selenium.loaders;
 
 import tuto.eclipse.jal.constants.JALConstants;
+import tuto.eclipse.jal.selenium.pageObjects.availabilityPage.AvailabilityPage;
 import tuto.eclipse.jal.selenium.pageObjects.homePage.HomePage;
 
 public class BookingFlow {
@@ -17,7 +18,14 @@ public class BookingFlow {
 		home.run();
 	}
 
+	protected void availabilityPageRun() {
+
+		AvailabilityPage avai = new AvailabilityPage();
+		avai.run();
+	}
+
 	protected void run() {
 		homePageRun();
+		availabilityPageRun();
 	}
 }
