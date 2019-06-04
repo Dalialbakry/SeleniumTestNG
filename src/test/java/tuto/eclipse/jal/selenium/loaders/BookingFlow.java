@@ -22,6 +22,7 @@ public class BookingFlow {
 
 		AvailabilityPage avai = new AvailabilityPage();
 		avai.run();
+
 	}
 
 	protected void run() {
