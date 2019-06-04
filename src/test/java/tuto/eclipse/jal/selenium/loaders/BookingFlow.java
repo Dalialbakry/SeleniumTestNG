@@ -17,6 +17,11 @@ public class BookingFlow {
 		home.run();
 	}
 
+	protected void availabilityPageRun() {
+		// TODO ADD availability - to be coded
+
+	}
+
 	protected void run() {
 		homePageRun();
 	}
